@@ -1,0 +1,9 @@
+#static-site-image {
+    width: 100%;
+    position: relative
+}
+
+#contact {
+    padding-left: 20%;
+    padding-right: 20%;
+}
