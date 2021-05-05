@@ -3,8 +3,12 @@ body {
     flex-direction: column;
 }
 
+.navbar{
+    position: fixed;
+}
+
 #top-block{
-    background-color: black;
+    background: linear-gradient(0deg, #B6CCFE 0%, #ABC4FF 100%);
     text-align: center;
     color: white;
     width: 100%;
@@ -17,20 +21,73 @@ body {
 }
 
 #second-block{
+  background: linear-gradient(0deg, #C1D3FE 0%, #B6CCFE 100%);
   display: flex;
   padding-left: auto;
   padding-top: 50px;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 50px;
 }
 
 #about-me{
-    border: 2px solid gray;
+    color: #8E9AAF;
     margin-left: auto;
     margin-right: 0px;
 }
 
-#picture{
-    border:  2px solid gray;
+#picture-holder{
     margin-left: 0px;
     margin-right: auto;
-    padding-left: 0px;
+    padding-left: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+#picture{
+    border: 2px solid #8E9AAF;
+    border-radius: 10px;
+}
+
+#third-block{
+    background: linear-gradient(0deg, #CCDBFD 0%, #C1D3FE 100%);
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    color: #8E9AAF;
+
+}
+
+#skills {
+    margin-left: auto; 
+    margin-right: 0px;
+    height: 250px;
+}
+
+#linkedin {
+    width: 120px;
+    height: auto;
+}
+
+#github {
+    width: 100px;
+    height: auto;
+}
+
+#socials {
+    margin-right: auto;
+    margin-left: 0px;
+    height: 250px;
+}
+
+#projects {
+    background: linear-gradient(0deg, #D7E3FC 0%, #CCDBFD 100%);
+
+}
+
+#contact-me {
+    background: linear-gradient(0deg, #E2EAFC 0%, #D7E3FC 100%);
+    background-color: white;
+    color: white;
 }
