@@ -1,154 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria Bruner portfolio</title>
-    <!--This brings in bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-    <!--This is the main stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <nav class="nav">
-        <a class="nav-link" aria-current="page" href="#">Maria Bruner</a>
-        <a class="nav-link" href="#">About Me</a>
-        <a class="nav-link" href="#">Projects</a>
-        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-    </nav>
+        <div id="top-block">
+            <p id="name">Maria Bruner</p>
+            <p id="quote"> "Be so busy improving yourself that you have no time to criticize others"</p>
+        </div>
+        <div id="second-block">
+                <div id="about-me" class="col-md-3">
+                    <p>About Me</p>
+                    <p>Welcome to my portfolio! My name is Maria Bruner, originally from Lasalle-Peru, Illinois. Before entering the world of web development, I moved to Indiana to attend Rose-Hulman Institute of Technology. At Rose I was able to play for the varsity volleyball team all four years before graduating with a BS in Mechanical Engineering. During my time at Rose I fell in love with writing code through some entry-level coding and robotics courses, but never considered pursuing further. </p>
 
-    <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
-            <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
-                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <p>Since I graduated I have moved to Indianapolis and have been working as a Quality Engineer and Carbon Printer Design Engineer at Makuta, INC., a micromolding company in Shelbyville, IN. After approximately a year of working in industry, I found myself studying code in my free time and looking at ways to pursue a career in web development. That's when I discovered ElevenFifty Academy's Web Development Bootcamp, which has helped me confirm my passion for writing code. Since March of 2021 I have been learning Javascript, HTML, CSS, and all of the necessary tools to begin a career in web development. My projects below are shown in chronological order, so you will hopefully be able to see how I grew as a developer throughout the course. </p>
+                </div>
+
+                <div id="picture" class="col-md-3">Picture</div>
+        </div>
+        <div id="third-block">
+            <div id="skills-socials">
+                <div id="skills" class="col">Skills</div>
+                <div id="socials" class="col">Socials</div>
             </div>
         </div>
-    </div>
-    </div>
-
-
-
-    <main class="container-fluid pb-3">
-        <div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr;">
-            <div class="bg-light border rounded-3">
-                <br><br><br><br><br><br><br><br><br><br>
-            </div>
-            <div class="bg-light border rounded-3">
-                <br><br><br><br><br><br><br><br><br><br>
-            </div>
-
-        </div>
-    </main>
-
-    <div class="container" id="projects">
-        <figure class="text-center">
-            <h1>Projects</h1>
-        </figure>
-
-        <div class="card">
-            <div class="card-header">
-                Static Website
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/Screen Shot 2021-04-13 at 8.08.14 PM.png" id="static-site-image"
-                                    class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-                                    magni temporibus cum dignissimos nihil, voluptatibus corporis molestiae, laudantium
-                                    beatae odio unde, distinctio non iusto dolores. Deleniti similique delectus aliquid
-                                    culpa?
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio repellendus deserunt
-                                    ducimus nisi non minima nostrum fugiat tenetur, excepturi necessitatibus facilis
-                                    magnam eligendi animi, obcaecati quia voluptate dicta libero natus.
-                                </p>
-                                <a href="#" class="btn btn-primary">View Live</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <figure class="text-center">
-        <h1>Contact</h1>
-    </figure>
-    
-    <section id="contact" class="row alignment-content-center">
-        <form class="row align-content-center" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgrgnky"
-            method="post">
-            <fieldset id="fs-frm-inputs">
-                <div class="row align-content-center">
-                    <label for="full-name">Full Name</label>
-                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                </div>
-
-                <div class="row align-content-center">
-                    <label for="email-address">Email Address</label>
-                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                </div>
-
-                <div class="row align-content-center">
-                <label for="message">Message</label>
-                <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
-                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-            </div>
-            </fieldset>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-
-    
-
-    <div class="container-fluid">
-        <footer class="pt-4 my-md-5 pt-md-5 border-top">
-            <div class="row">
-                <div class="col-12 col-md">
-                    <small class="d-block mb-3 text-muted">© 2017–2021</small>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Projects</h5>
-                    <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Static Site</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">CSS Creature</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Other Platforms</h5>
-                    <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">GitHub</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">LinkedIn</a></li>
-                </div>
-                </ul>
-            </div>
-    </div>
-    </div>
-    </footer>
-    </div>
-
-    <!-- Loading in requirements for bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
+        
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
-
 </html>
