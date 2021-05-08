@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     font-family: main-font;
     height: 100%;
+    background: linear-gradient(0deg, #FFCBF2, #C0FDFF)
 }
 
 .navbar{
@@ -19,7 +20,6 @@ body {
 
 #top-block{
     font-family: title-font;
-    background: linear-gradient(0deg, #B6CCFE 0%, #ABC4FF 100%);
     text-align: center;
     color: #8E9AAF;
     width: 100%;
@@ -48,7 +48,6 @@ body {
 
 
 #second-block{
-  background: linear-gradient(0deg, #C1D3FE 0%, #B6CCFE 100%);
   display: flex;
   padding-left: auto;
   padding-top: 50px;
@@ -65,6 +64,10 @@ body {
     width: 50%;
 }
 
+#about-me-header{
+    font-size: 42px;
+}
+
 #picture-holder{
     margin-left: 0px;
     margin-right: auto;
@@ -79,16 +82,6 @@ body {
     border-radius: 10px;
 }
 
-#socials{
-    background: linear-gradient(0deg, #CCDBFD 0%, #C1D3FE 100%);
-    display: flex;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    background-color: white;
-    color: #8E9AAF;
-    justify-content: center;
-    align-content: center;
-}
 
 #linkedin {
     width: 120px;
@@ -100,17 +93,31 @@ body {
     height: auto;
 }
 
+#skills-header{
+    margin-top: 100px;
+    font-size: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8E9AAF;
+}
+
 #skills {
-    background: linear-gradient(0deg, #D7E3FC 0%, #CCDBFD 100%);
+    margin-top: 10px;
+    color: #8E9AAF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #projects {
-    background: linear-gradient(0deg, #E2EAFC 0%, #D7E3FC 100%);
+    color: #8E9AAF;
+    display: flex;
+    justify-content: center;
 
 }
 
-#contact-me {
-    background: linear-gradient(0deg, #EDF2FB 0%, #E2EAFC 100%);
-    background-color: white;
-    color: white;
+#projects-header {
+    margin-top: 100px;
+    font-size: 42px;
 }
+
