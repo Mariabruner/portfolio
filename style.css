@@ -7,11 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: main-font;
+    height: 100%;
 }
 
 .navbar{
     position: fixed;
     width: 100%;
+    justify-content: center;
+    align-content: center;
 }
 
 #top-block{
@@ -20,7 +23,7 @@ body {
     text-align: center;
     color: #8E9AAF;
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,8 +42,8 @@ body {
 }
 
 #quote{
-    padding-top: 100px;
-    font-size: 36px;
+    padding-top: 150px;
+    font-size: 30px;
 }
 
 
@@ -76,20 +79,15 @@ body {
     border-radius: 10px;
 }
 
-#third-block{
+#socials{
     background: linear-gradient(0deg, #CCDBFD 0%, #C1D3FE 100%);
     display: flex;
-    padding-top: 0px;
+    padding-top: 100px;
     padding-bottom: 50px;
     background-color: white;
     color: #8E9AAF;
-
-}
-
-#holder {
-    margin-left: auto; 
-    margin-right: 0px;
-    height: 250px;
+    justify-content: center;
+    align-content: center;
 }
 
 #linkedin {
@@ -97,22 +95,22 @@ body {
     height: auto;
 }
 
+#github {
+    width: 120px;
+    height: auto;
+}
 
-
-#social-media {
-    margin-right: auto;
-    margin-left: 0px;
-    height: 250px;
-    padding-left: 30px;
+#skills {
+    background: linear-gradient(0deg, #D7E3FC 0%, #CCDBFD 100%);
 }
 
 #projects {
-    background: linear-gradient(0deg, #D7E3FC 0%, #CCDBFD 100%);
+    background: linear-gradient(0deg, #E2EAFC 0%, #D7E3FC 100%);
 
 }
 
 #contact-me {
-    background: linear-gradient(0deg, #E2EAFC 0%, #D7E3FC 100%);
+    background: linear-gradient(0deg, #EDF2FB 0%, #E2EAFC 100%);
     background-color: white;
     color: white;
 }

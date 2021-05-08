@@ -1,0 +1,89 @@
+// A list of topics that we will need to review to be ready for the test
+// 30 mins
+// Working with data: Data indexing and extraction (1 question, 2 parts)
+// You will be given some object with data and asked to grab part of it
+
+let students = {
+    className : "WD 83 B",
+    studentArr: [
+        "Janet",
+        "Ashley",
+        "Ron"
+    ],
+    currentDay: "4-22-21"
+}
+
+// 1 indexing question
+// Write indexing on the students obj that gives back the array of students
+
+console.log(students.studentArr)
+
+// 1 assignment of data
+// take the last student of the student arr and assign them to a new
+// variable called lastInLine
+
+let lastInLine
+students.studentArr[students.studentArr.length - 1] = lastInLine
+
+// Using Array Methods: Map / Filter / Reduce (2 questions)
+// Given an array perform 2 of these.
+let foods = ["eggs", "sugar", "corn", "water", "pork"]
+// Map question
+// for all the foods create a new array with the one capitalized
+
+let results = food.map( food => {
+    let arr = []
+    arr.push[food.toUpperCase]
+})
+
+
+// Filter question
+// give an allergy array return foods the person can have
+let allergies = ["eggs"]
+
+let results = foods.filter(food => {
+    let arr = []
+    if(food != eggs){
+        arr.push[food]
+    }
+    return arr
+})
+
+
+// Reduce question
+// use reduce to create a single string with the entries sep by comma and a space
+// ie "first, second, ..."
+
+let answer = foods.reduce((acc, cur) => acc + ", " + cur)
+console.log(arrStr)
+
+// Writing functions: Writing a callback/ using function and => syntax 
+// Translation question and block vs concise (1 question / 2 part)
+
+function sqr(x){
+    return x * x
+}
+
+/*
+const sqr = (x) => {
+    return x * x
+}
+*/
+let newSqr = (x) => x * x
+
+// Looping: (2 questions)
+// for(;;){} loop question
+// some question that you can use a loop of your choice while for..of for..in for(;;)
+for (let i = 1; i <= 10; i++){
+    console.log(i)
+}
+// Use a loop to go through an array and return all names until you find "end", 
+// when you do, you are done
+let nameArr = ["one", "two", "three", "end", "four", "five"]
+let tmp = []
+for (let name of nameArr){
+    if (name === "end") break;
+    tmp.push(name)
+}
+console.log(tmp)
+// Hard bonus, to use the rest of the time
